@@ -240,42 +240,43 @@
     .section-facts-4 .hexagons .box-10 {
       position: absolute; }
     .section-facts-4 .hexagons .box-1 {
-      top: -23px;
-      left: 46px; }
+      top: -10px;
+      left: 20px;
+    }
     .section-facts-4 .hexagons .box-1 span {
       position: relative;
       top: 82px;
       left: 35px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-2 {
-      top: 198px;
-      left: 61px; }
+      top: 235px;
+      left: 80px; }
     .section-facts-4 .hexagons .box-3 {
-      top: 99px;
-      left: 112px; }
+      top: 109px;
+      left: 105px;}
     .section-facts-4 .hexagons .box-3 span {
       position: relative;
       top: 60px;
       left: 30px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-4 {
-      top: -5px;
-      left: 185px; }
+      top: 15px;
+      left: 160px; }
     .section-facts-4 .hexagons .box-4 span {
       position: relative;
       top: 63px;
       left: 24px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-5 {
-      bottom: 70px;
-      left: 136px; }
+      bottom: 60px;
+      left: 150px; }
     .section-facts-4 .hexagons .box-5 span {
       position: relative;
       top: 70px;
       left: 27px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-6 {
-      bottom: 150px;
+      bottom: 140px;
       left: 202px; }
     .section-facts-4 .hexagons .box-6 span {
       position: relative;
@@ -283,27 +284,29 @@
       left: 8px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-7 {
-      top: 19px;
-      left: 301px; }
+      top: 15px;
+      left: 280px;
+      }    
     .section-facts-4 .hexagons .box-7 span {
       position: relative;
       top: 66px;
       left: 25px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-8 {
-      bottom: 47px;
-      left: 260px; }
+      bottom: 55px;
+      left: 275px;
+   }
     .section-facts-4 .hexagons .box-8 span {
       position: relative;
       top: 66px;
       left: 31px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-9 {
-      bottom: 134px;
-      left: 350px; }
+      bottom: 160px;
+      left: 340px; }
     .section-facts-4 .hexagons .box-10 {
-      bottom: 5px;
-      left: 390px; }
+      bottom: 15px;
+      left: 345px; }
   .section-facts-4 .total-black-bckg {
     background-color: black;
     color: #ffffff;
@@ -323,16 +326,19 @@
     }
 
     .section-facts-4 .hexagons .box-5 {
-      bottom: 100px;
-      left: 136px;
+      bottom: 95px;
+      left: 150px;
     }
 
   .section-facts-4 .hexagons .box-8 {
-    bottom: 80px;
-    left: 245px;
+    bottom: 95px;
+    left: 285px;
+
     }
   }
 
 @media screen and (max-width: 1024px) {
   .section-facts-4 {
     padding-top: 10%; } }
+
+
