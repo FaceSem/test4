@@ -5,12 +5,17 @@
     padding-top: 50px;
     flex-direction: row;
     background-color: #eefff0;
-    padding-bottom: 5%; }
+    padding-bottom: 10%;
+  } 
   .section-facts-4 .row-element p {
-    margin: 10%; }
+    margin: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
 
   .section-facts-4 .hexagons {
-    position: relative; }
+    position: relative;
+    margin-bottom: -6%;
+   }
     .section-facts-4 .hexagons span {
       color: #282828;
       font-family: 'Open Sans';
@@ -275,7 +280,7 @@
     .section-facts-4 .hexagons .box-6 span {
       position: relative;
       top: 81px;
-      left: 11px;
+      left: 8px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-7 {
       top: 19px;
@@ -283,7 +288,7 @@
     .section-facts-4 .hexagons .box-7 span {
       position: relative;
       top: 66px;
-      left: 31px;
+      left: 25px;
       z-index: 99; }
     .section-facts-4 .hexagons .box-8 {
       bottom: 47px;
@@ -303,6 +308,13 @@
     background-color: black;
     color: #ffffff;
     padding: 0 2%; }
+
+  @media screen and (min-width: 1600px) and (max-width: 1700px) {   
+  .section-facts-4 .hexagons {
+    position: relative;
+    margin-bottom: -60px;
+   }
+  }
 
     @media screen and (max-width: 1330px) {
       .section-facts-4 .hexagons .box-6 {

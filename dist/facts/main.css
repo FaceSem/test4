@@ -34,7 +34,8 @@ body {
     width: 70%;}
     @media screen and (min-width: 1520px) and (max-width: 1920px) {
       .row-element p {
-        width: 90%;}
+        width: 90%;
+        font-size: 18.5px;}
     }
 
 .total-black-bckg {
@@ -65,7 +66,7 @@ body {
   font-family: 'Open Sans';
   color: #858687;
   font-weight: 400;
-  font-size: 15px; }
+  font-size: 20px; }
 
 .a {
   width: 50px;
@@ -86,3 +87,42 @@ body {
   width: 20%;
   margin-top: 0 !important;
   margin-left: 10%; }
+
+
+  @media screen and (min-width: 1440px) and (max-width: 1520px) {
+    .row-element p {
+      width: 70%;
+      font-size: 15.4px;
+    }
+    .section-facts-4 .hexagons {
+      position: relative;
+      margin-bottom: -4%!important;
+  }
+  }
+
+  @media screen and (min-width: 1311px) and (max-width: 1439px) {
+    .row-element p {
+      width: 70%;
+      font-size: 16px;
+  }
+  
+  }
+
+  @media screen and (min-width: 1260px) and (max-width: 1310px) {
+    .row-element p {
+      width: 70%;
+      font-size: 16px;
+    }
+    .section-facts-4 .hexagons {
+      position: relative;
+      margin-bottom: -4.5%!important;
+    }
+  }
+
+  @media screen and (min-width: 1020px) and (max-width: 1259px) {
+    .row-element p {
+      width: 70%;
+      font-size: 15.4px;
+    }
+  }
+
