@@ -304,6 +304,23 @@
     color: #ffffff;
     padding: 0 2%; }
 
+    @media screen and (max-width: 1330px) {
+      .section-facts-4 .hexagons .box-6 {
+        bottom: 180px;
+        left: 202px;
+    }
+
+    .section-facts-4 .hexagons .box-5 {
+      bottom: 100px;
+      left: 136px;
+    }
+
+  .section-facts-4 .hexagons .box-8 {
+    bottom: 80px;
+    left: 245px;
+    }
+  }
+
 @media screen and (max-width: 1024px) {
   .section-facts-4 {
     padding-top: 10%; } }
